@@ -5,7 +5,7 @@ const CONFIG = {
   to: 'Yesenia',
   from: 'Jaime',
   coverDate: '2026-10-29',      // fecha de portada (AAAA-MM-DD)
-  startDate: '2024-01-01',      // CAMBIAR: inicio de la relación (AAAA-MM-DD)
+  startDate: '2024-02-23',      // CAMBIAR: inicio de la relación (AAAA-MM-DD)
   taps: 12,                      // toques para llenar el corazón
   debug: false,                 // true: muestra en consola/placeholder los archivos que faltan
   intro: { eyebrow: 'Tienes un regalo', message: 'Espero que te guste, mi amor. Lo hice con todo mi corazón, solo para ti.', hint: 'Toca el corazón para descubrir tu regalo.' },
