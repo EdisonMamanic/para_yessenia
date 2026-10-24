@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fbd9df">
+<title>Un regalo para ti</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="locked">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="h" viewBox="0 0 100 90"><path d="M50 88C20 62 4 46 4 28 4 14 15 5 28 5c9 0 17 5 22 13 5-8 13-13 22-13 13 0 24 9 24 23 0 18-16 34-46 60z"/></symbol></svg>
+
+<section id="intro" class="stage">
+  <div class="card">
+    <p class="eye" id="in-eye"></p><p class="eye">Para</p>
+    <h1 id="in-to"></h1><hr>
+    <p id="in-from"></p><p class="quote" id="in-msg"></p>
+  </div>
+  <button class="hbtn" id="go" aria-label="Descubrir el regalo"><svg class="ic"><use href="#h"/></svg></button>
+  <p class="hint" id="in-hint"></p>
+</section>
+
+<section id="tap" class="stage" hidden>
+  <button class="big" id="heart" aria-label="Tocar el corazón">
+    <svg class="o"><use href="#h"/></svg>
+    <div class="fill" id="fill"><svg><use href="#h"/></svg></div>
+  </button>
+  <p class="hint" id="tap-hint"></p>
+</section>
+
+<main id="app" hidden></main>
+
+<div id="quiz" class="ov" hidden role="dialog" aria-modal="true" aria-label="Sorpresa">
+  <button class="x" id="qx" aria-label="Cerrar">&times;</button>
+  <div class="qv" id="qv"></div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
